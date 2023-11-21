@@ -17,3 +17,4 @@
 7. Web is a mixed file code of CHATGLM+UNET
 
 -
+If you need image data or models, you can apply to the author via email: 2932185393@qq.com
