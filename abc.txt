@@ -1,0 +1,4 @@
+protobuf
+cpm_kernels
+sentencepiece
+accelerate

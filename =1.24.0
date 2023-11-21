@@ -1,0 +1,84 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting streamlit
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6a/23/a788a838a3466ac009012a998e73e7cb3eab896a26b4eab7bcb2195ef9e0/streamlit-1.24.1-py2.py3-none-any.whl (8.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.9/8.9 MB 3.5 MB/s eta 0:00:00
+Requirement already satisfied: altair<6,>=4.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (5.0.1)
+Collecting blinker<2,>=1.0.0 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/0d/f1/5f39e771cd730d347539bb74c6d496737b9d5f0a53bc9fdbf3e170f1ee48/blinker-1.6.2-py3-none-any.whl (13 kB)
+Collecting cachetools<6,>=4.0 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a9/c9/c8a7710f2cedcb1db9224fdd4d8307c9e48cbddc46c18b515fefc0f1abbe/cachetools-5.3.1-py3-none-any.whl (9.3 kB)
+Requirement already satisfied: click<9,>=7.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (8.1.3)
+Collecting importlib-metadata<7,>=1.4 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cc/37/db7ba97e676af155f5fcb1a35466f446eadc9104e25b83366e8088c9c926/importlib_metadata-6.8.0-py3-none-any.whl (22 kB)
+Requirement already satisfied: numpy<2,>=1 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (1.25.0)
+Requirement already satisfied: packaging<24,>=14.1 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (23.1)
+Requirement already satisfied: pandas<3,>=0.25 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (2.0.2)
+Requirement already satisfied: pillow<10,>=6.2.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (9.4.0)
+Requirement already satisfied: protobuf<5,>=3.20 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (4.23.3)
+Requirement already satisfied: pyarrow>=4.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (12.0.1)
+Collecting pympler<2,>=0.9 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2c/42/41e1469ed0b37b9c8532cb8074bea179f7d85ee7e82a59b5b6c289ed6045/Pympler-1.0.1-py3-none-any.whl (164 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 164.8/164.8 kB 5.1 MB/s eta 0:00:00
+Requirement already satisfied: python-dateutil<3,>=2 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (2.8.2)
+Requirement already satisfied: requests<3,>=2.4 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (2.29.0)
+Collecting rich<14,>=10.11.0 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/fc/1e/482e5eec0b89b593e81d78f819a9412849814e22225842b598908e7ac560/rich-13.4.2-py3-none-any.whl (239 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 239.4/239.4 kB 4.6 MB/s eta 0:00:00
+Collecting tenacity<9,>=8.0.0 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/e7/b0/c23bd61e1b32c9b96fbca996c87784e196a812da8d621d8d04851f6c8181/tenacity-8.2.2-py3-none-any.whl (24 kB)
+Collecting toml<2 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/44/6f/7120676b6d73228c96e17f1f794d8ab046fc910d781c8d151120c3f1569e/toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Requirement already satisfied: typing-extensions<5,>=4.0.1 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from streamlit) (4.6.3)
+Collecting tzlocal<5,>=1.1 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/55/a6/a75af44665e5e77e52f6789eef4f8bc056c8e039d96c804b975806942580/tzlocal-4.3.1-py3-none-any.whl (20 kB)
+Collecting validators<1,>=0.2 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/95/14/ed0af6865d378cfc3c504aed0d278a890cbefb2f1934bf2dbe92ecf9d6b1/validators-0.20.0.tar.gz (30 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting gitpython!=3.1.19,<4,>=3 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/67/50/742c2fb60989b76ccf7302c7b1d9e26505d7054c24f08cc7ec187faaaea7/GitPython-3.1.32-py3-none-any.whl (188 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 188.5/188.5 kB 3.2 MB/s eta 0:00:00
+Collecting pydeck<1,>=0.1.dev5 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/10/4b/2fc80540e2d3903452245bb657c7f758ec7342420507d1e4091b0161856e/pydeck-0.8.1b0-py2.py3-none-any.whl (4.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.8/4.8 MB 3.2 MB/s eta 0:00:00
+Collecting tornado<7,>=6.0.3 (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/31/51/894f260c1380853cc268f661fe599a4523a47d07e867386abb58f1f11278/tornado-6.3.2-cp38-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (426 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 426.9/426.9 kB 4.0 MB/s eta 0:00:00
+Collecting watchdog (from streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/2b/f0/456948b865ab259784f774154e7d65844fa9757522fdb11533fbf8ae7aca/watchdog-3.0.0-py3-none-manylinux2014_x86_64.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.1/82.1 kB 4.7 MB/s eta 0:00:00
+Requirement already satisfied: jinja2 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from altair<6,>=4.0->streamlit) (3.1.2)
+Requirement already satisfied: jsonschema>=3.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from altair<6,>=4.0->streamlit) (4.17.3)
+Requirement already satisfied: toolz in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from altair<6,>=4.0->streamlit) (0.12.0)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3->streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/21/a6/35f83efec687615c711fe0a09b67e58f6d1254db27b1013119de46f450bd/gitdb-4.0.10-py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB 4.4 MB/s eta 0:00:00
+Collecting zipp>=0.5 (from importlib-metadata<7,>=1.4->streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/8c/08/d3006317aefe25ea79d3b76c9650afabaf6d63d1c8443b236e7405447503/zipp-3.16.2-py3-none-any.whl (7.2 kB)
+Requirement already satisfied: pytz>=2020.1 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from pandas<3,>=0.25->streamlit) (2023.3)
+Requirement already satisfied: tzdata>=2022.1 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from pandas<3,>=0.25->streamlit) (2023.3)
+Requirement already satisfied: six>=1.5 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from python-dateutil<3,>=2->streamlit) (1.16.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from requests<3,>=2.4->streamlit) (2.0.4)
+Requirement already satisfied: idna<4,>=2.5 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from requests<3,>=2.4->streamlit) (3.4)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from requests<3,>=2.4->streamlit) (1.26.16)
+Requirement already satisfied: certifi>=2017.4.17 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from requests<3,>=2.4->streamlit) (2023.5.7)
+Requirement already satisfied: markdown-it-py>=2.2.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from rich<14,>=10.11.0->streamlit) (2.2.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from rich<14,>=10.11.0->streamlit) (2.15.1)
+Collecting pytz-deprecation-shim (from tzlocal<5,>=1.1->streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/eb/73/3eaab547ca809754e67e06871cff0fc962bafd4b604e15f31896a0f94431/pytz_deprecation_shim-0.1.0.post0-py2.py3-none-any.whl (15 kB)
+Collecting decorator>=3.4.0 (from validators<1,>=0.2->streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/d5/50/83c593b07763e1161326b3b8c6686f0f4b0f24d5526546bee538c89837d6/decorator-5.1.1-py3-none-any.whl (9.1 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3->streamlit)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6d/01/7caa71608bc29952ae09b0be63a539e50d2484bc37747797a66a60679856/smmap-5.0.0-py3-none-any.whl (24 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from jinja2->altair<6,>=4.0->streamlit) (2.1.3)
+Requirement already satisfied: attrs>=17.4.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (23.1.0)
+Requirement already satisfied: pyrsistent!=0.17.0,!=0.17.1,!=0.17.2,>=0.14.0 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from jsonschema>=3.0->altair<6,>=4.0->streamlit) (0.19.3)
+Requirement already satisfied: mdurl~=0.1 in /media/ubuntu/fosu2/anaconda/envs/GLM/lib/python3.10/site-packages (from markdown-it-py>=2.2.0->rich<14,>=10.11.0->streamlit) (0.1.2)
+Building wheels for collected packages: validators
+  Building wheel for validators (setup.py): started
+  Building wheel for validators (setup.py): finished with status 'done'
+  Created wheel for validators: filename=validators-0.20.0-py3-none-any.whl size=19581 sha256=a1626520cd68b305d95046b3de565fd12fb10a3502f8332250f85cc3e09d538a
+  Stored in directory: /home/ubuntu/.cache/pip/wheels/98/66/c3/86d3827ef03b3857e6aee6b922dd811b561a0c79a9358a6323
+Successfully built validators
+Installing collected packages: zipp, watchdog, tornado, toml, tenacity, smmap, pytz-deprecation-shim, pympler, decorator, cachetools, blinker, validators, tzlocal, rich, pydeck, importlib-metadata, gitdb, gitpython, streamlit
+Successfully installed blinker-1.6.2 cachetools-5.3.1 decorator-5.1.1 gitdb-4.0.10 gitpython-3.1.32 importlib-metadata-6.8.0 pydeck-0.8.1b0 pympler-1.0.1 pytz-deprecation-shim-0.1.0.post0 rich-13.4.2 smmap-5.0.0 streamlit-1.24.1 tenacity-8.2.2 toml-0.10.2 tornado-6.3.2 tzlocal-4.3.1 validators-0.20.0 watchdog-3.0.0 zipp-3.16.2
